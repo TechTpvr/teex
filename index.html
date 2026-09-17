@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#f7f9fc"><meta name="description" content="TeeXaa — ترمینال هوشمند بازار و دارایی">
+<link rel="manifest" href="manifest.webmanifest"><link rel="icon" href="logo-app.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Estedad:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"><title>TeeXaa®</title>
+</head><body>
+<div id="splash" class="splash">
+  <div class="s-orb orb-cyan"></div><div class="s-orb orb-pink"></div><div class="s-orb orb-violet"></div>
+  <div class="s-ribbon ribbon-a"></div><div class="s-ribbon ribbon-b"></div>
+  <div class="s-grain"></div>
+  <div class="s-center">
+    <div class="entry-stage">
+      <div class="entry-glow"></div>
+      <img src="teexaa-entry.png" alt="TeeXaa" class="entry-logo">
+      <span class="entry-sweep"></span>
+      <span class="entry-trace trace-1"></span><span class="entry-trace trace-2"></span>
+    </div>
+    <div class="entry-caption">دنیای فرصت‌ها، یک قدم نزدیک‌تر</div>
+  </div>
+  <div class="s-loader"><span></span><i></i><b></b></div>
+  <div class="s-bottom"><span>TEE XAA</span><span id="bootPct">00%</span></div>
+</div>
+<div id="app" class="hidden">
+<header class="mobile-head"><button class="brand-mini" data-page="home"><img src="logo-app.png"><span>TeeXaa<sup>®</sup></span></button><div class="head-actions"><button class="round-btn" data-page="notifications" aria-label="اعلان">${''}<span class="i-bell"></span><em></em></button><button class="profile-dot" data-page="profile">T</button></div></header>
+<div class="layout">
+<aside class="rail"><div class="rail-brand"><img src="logo-app.png"><div><b>TeeXaa<sup>®</sup></b><small>MARKET TERMINAL</small></div></div><div class="rail-status"><span></span>داده‌ها متصل</div><nav id="railNav"></nav><div class="rail-foot"><button data-page="security"><span class="i-lock"></span><b>امنیت</b></button><div class="rail-user"><span>T</span><div><b>حساب TeeXaa</b><small>Standard</small></div></div></div></aside>
+<main id="view"></main></div>
+<nav class="bottom-nav" id="bottomNav"></nav></div>
+<div id="toast" class="toast"></div><div id="modal" class="modal"></div>
+<script src="app.js"></script></body></html>
